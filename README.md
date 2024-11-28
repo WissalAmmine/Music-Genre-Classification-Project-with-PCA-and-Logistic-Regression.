@@ -15,30 +15,30 @@ ________________________________________
 📁 Structure du projet
 •	music_dataset_mod.csv : Dataset contenant les caractéristiques musicales et la colonne "Genre", avec des valeurs manquantes.
 •	Code source :
-o	Préparation et exploration des données.
-o	Visualisation des distributions de genres et corrélations.
-o	Réduction de dimensionnalité avec PCA.
-o	Modélisation avec régression logistique.
-o	Prédiction et remplissage des genres manquants.
+  o	Préparation et exploration des données.
+  o	Visualisation des distributions de genres et corrélations.
+  o	Réduction de dimensionnalité avec PCA.
+  o	Modélisation avec régression logistique.
+  o	Prédiction et remplissage des genres manquants.
 •	Résultats visuels :
-o	Matrice de corrélation.
-o	Variance cumulée pour la sélection des composantes principales.
-o	Histogrammes et graphiques des genres après prédiction.
+  o	Matrice de corrélation.
+  o	Variance cumulée pour la sélection des composantes principales.
+  o	Histogrammes et graphiques des genres après prédiction.
 ________________________________________
 🚀 Étapes du projet
 1.	Exploration et nettoyage des données :
-o	Analyse des valeurs manquantes.
-o	Visualisation de la répartition des genres.
+  o	Analyse des valeurs manquantes.
+  o	Visualisation de la répartition des genres.
 2.	Analyse de corrélation :
-o	Étude des relations entre les différentes caractéristiques du dataset.
+  o	Étude des relations entre les différentes caractéristiques du dataset.
 3.	Réduction de dimensionnalité avec PCA :
-o	Identification du nombre optimal de composantes principales pour capturer au moins 80 % de la variance.
+  o	Identification du nombre optimal de composantes principales pour capturer au moins 80 % de la variance.
 4.	Création et entraînement du modèle :
-o	Régression logistique sur les données réduites.
+  o	Régression logistique sur les données réduites.
 5.	Prédiction et remplissage des genres :
-o	Remplissage des valeurs manquantes avec les prédictions du modèle.
+  o	Remplissage des valeurs manquantes avec les prédictions du modèle.
 6.	Évaluation des performances :
-o	Comparaison des performances entre les données PCA et les données originales.
+  o	Comparaison des performances entre les données PCA et les données originales.
 ________________________________________
 🎯 Résultats
 •	Nombre de composantes principales : Le PCA a permis de réduire les données à un nombre minimal de dimensions tout en expliquant plus de 80 % de la variance.
