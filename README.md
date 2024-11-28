@@ -1,4 +1,4 @@
-**📋 Description du projet**
+**📋 Description du projet** <br>
 Ce projet vise à prédire les genres musicaux manquants dans un dataset musical en utilisant des techniques d'apprentissage automatique et d'analyse en composantes principales (PCA). En réduisant la dimensionnalité des données tout en conservant l'essentiel de l'information, le modèle de régression logistique permet de remplir les valeurs manquantes de la colonne "Genre" de manière précise et efficace.
 ________________________________________
 **🛠️ Technologies utilisées**
