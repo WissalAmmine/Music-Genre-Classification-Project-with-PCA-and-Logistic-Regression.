@@ -4,13 +4,13 @@ ________________________________________
 🛠️ Technologies utilisées
 •	Python : Langage principal pour la manipulation des données et la création des modèles.
 •	Bibliothèques principales :
-o	pandas et numpy : Manipulation et analyse des données.
-o	scikit-learn : Réduction de dimensionnalité avec PCA et création du modèle de régression logistique.
-o	matplotlib et seaborn : Visualisation des données et graphiques.
+  o	pandas et numpy : Manipulation et analyse des données.
+  o	scikit-learn : Réduction de dimensionnalité avec PCA et création du modèle de régression logistique.
+  o	matplotlib et seaborn : Visualisation des données et graphiques.
 •	Outils statistiques et de machine learning :
-o	PCA (Principal Component Analysis)
-o	Régression logistique
-o	Évaluation des modèles avec des métriques comme l'accuracy et le rapport de classification.
+  o	PCA (Principal Component Analysis)
+  o	Régression logistique
+  o	Évaluation des modèles avec des métriques comme l'accuracy et le rapport de classification.
 ________________________________________
 📁 Structure du projet
 •	music_dataset_mod.csv : Dataset contenant les caractéristiques musicales et la colonne "Genre", avec des valeurs manquantes.
